@@ -10,11 +10,11 @@ import { IncidenciaModule } from './incidencias/incidencias.module';
       type: 'postgres',
       host: 'localhost',
       port: 5432,
-      username: 'postgres', // cambia según tu usuario
+      username: 'postgres', 
       password: '123qwe',
       database: 'sistema_reservas',
       autoLoadEntities: true,
-      synchronize: true, // ⚠️ Solo para desarrollo
+      synchronize: true, 
     }),
     EquipoModule,
     IncidenciaModule,
